@@ -5,7 +5,7 @@
     2. check the align of space and cosmos with the icons
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -17,13 +17,13 @@
 }
 
 /* HEADER SESSION */
-.body{
+.body {
     width: 100%;
     height: 100%;
     display: block;
 }
 
-.header{
+.header {
     width: 100%;
     height: 7%;
     display: flex;
@@ -33,49 +33,47 @@
     border-bottom: .3px solid lightgray;
 }
 
-.header-left-content{
+.header-left-content {
     width: 75px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline; 
+    align-items: baseline;
     margin-left: 10px;
 }
 
-.header-settings{
+.header-settings {
     width: 8%;
     height: 8%;
 }
 
-.header-magnifier{
+.header-magnifier {
     width: 8%;
     height: 8%;
 }
 
-.header-title{
-    
-}
+.header-title {}
 
-.header-title a{
+.header-title a {
     color: #333;
     font-size: 5px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.header-center{
+.header-center {
     width: 15%;
     height: 60%;
     margin-top: 3px;
 }
 
-.header-right-content{
+.header-right-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 105px;
 }
 
-.header-subscribe-btn{
+.header-subscribe-btn {
     width: 50px;
     height: 15px;
     background: #567b95;
@@ -86,13 +84,13 @@
     font-weight: bold;
 }
 
-.header-user-btn-content{
+.header-user-btn-content {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.header-user-btn{
+.header-user-btn {
     width: 50px;
     height: 15px;
     background: #FFF;
@@ -102,16 +100,32 @@
     font-weight: bold;
 }
 
-.header-user-btn-arrow{
+.header-user-btn-arrow {
     width: 4px;
     height: 4px;
     padding-top: 2px;
     margin-left: 3px;
 }
 
-.header-icon{
+.header-icon {
     fill: #333;
     width: 100%;
     height: 100%;
 }
 
+.main-content-upper {
+    display: flex;
+
+}
+
+
+.main-content-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content-upper-text {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+}
