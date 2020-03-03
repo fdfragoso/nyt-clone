@@ -5,7 +5,7 @@
     2. check the align of space and cosmos with the icons
 */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     border: none;
@@ -14,14 +14,10 @@
     font-size: 12px;
     text-decoration: none;
     color: #000;
-}
+} */
 
 /* HEADER SESSION */
-.body {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
+.body {}
 
 .header {
     width: 100%;
@@ -113,19 +109,39 @@
     height: 100%;
 }
 
-.main-content-upper {
+.main-content {
     display: flex;
-
+    flex-direction: column;
 }
 
+.main-title {
+    align-self: center;
+}
 
-.main-content-top {
+.alan-guth {
+    align-self: center;
+}
+
+.alan-guth-img {
+    width: 950px;
+    height: 500px;
+}
+
+.alan-guth-description {
+    font-size: 0.8rem;
+}
+
+.share-links {
+    align-self: center;
+}
+
+.date-and-social {
     display: flex;
     justify-content: space-between;
+    width: 500px;
 }
 
-.main-content-upper-text {
-    display: flex;
-    justify-content: center;
-    width: 700px;
+.social-buttons {
+    margin-right: 10px;
+    color: black;
 }
