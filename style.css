@@ -168,6 +168,10 @@
 
 .top-text {
   width: 500px;
+  
+}
+
+.paragraph{
   align-self: center;
   font-family: "Nanum Gothic", sans-serif;
   line-height: 1.5;
