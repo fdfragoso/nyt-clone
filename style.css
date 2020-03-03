@@ -175,3 +175,12 @@
 .top-middle {
     width: 70px;
 }
+
+aside {
+    float: right;
+}
+
+.img1 {
+    width: 80px;
+    height: 80px;
+}
