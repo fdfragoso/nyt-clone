@@ -195,4 +195,18 @@ aside {
 .img1 {
   width: 80px;
   height: 80px;
+  float: left;
 }
+
+.pick-thumbnail-text{
+    width: 100px;
+    margin-left: 10px;
+    float: right;
+}
+
+.thumbnail1{
+    margin-bottom: 0px;
+
+}
+
+
