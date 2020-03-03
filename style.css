@@ -116,10 +116,13 @@
 
 .main-title {
     align-self: center;
+    margin-right: 120px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .alan-guth {
     align-self: center;
+
 }
 
 .alan-guth-img {
@@ -128,11 +131,27 @@
 }
 
 .alan-guth-description {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 750px;
+    line-height: 1.5;
 }
 
 .share-links {
     align-self: center;
+}
+
+.author-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.article-date {
+    font-size: 0.8rem;
 }
 
 .date-and-social {
@@ -144,4 +163,15 @@
 .social-buttons {
     margin-right: 10px;
     color: black;
+}
+
+.top-text {
+    width: 500px;
+    align-self: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 1.5;
+}
+
+.top-middle {
+    width: 70px;
 }
