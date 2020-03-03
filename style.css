@@ -174,7 +174,10 @@
 .paragraph{
   align-self: center;
   font-family: "Nanum Gothic", sans-serif;
+  font-size: 12px;
   line-height: 1.5;
+  text-align: justify;
+  width: 100%;
 }
 
 .top-middle {
