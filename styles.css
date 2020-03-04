@@ -176,11 +176,6 @@ aside {
   text-decoration: underline;
 }
 
-.articles-remaining {
-  text-align: center;
-  line-height: 1;
-}
-
 .div-articles-remaining {
   width: 600px;
   margin: 0 auto;
@@ -189,6 +184,7 @@ aside {
 }
 
 .div-articles-remaining p {
+  text-align: center;
   line-height: 1;
 }
 
