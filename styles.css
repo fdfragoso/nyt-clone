@@ -140,7 +140,7 @@ body {
 aside {
   float: right;
   width: 200px;
-  margin-right: 20rem;
+  margin-right: 5rem;
   margin-top: 100px;
 }
 
@@ -186,6 +186,10 @@ aside {
   margin: 0 auto;
   font-size: 1.25rem;
   margin-bottom: 1rem;
+}
+
+.div-articles-remaining p {
+  line-height: 1;
 }
 
 .div-articles-remaining hr {
