@@ -9,7 +9,7 @@ body {
   border-bottom: 0.5px solid lightgrey;
   border-top: 0.5px solid lightgrey;
   margin-top: 0;
-  height: 35px;
+  height: 40px;
   background-color: white;
   position: fixed;
   top: 0;
@@ -20,8 +20,8 @@ body {
 .nav-left {
   display: flex;
   justify-content: space-between;
-  width: 170px;
-  font-size: 0.7rem;
+  width: 210px;
+  font-size: 0.9rem;
   margin-left: 12px;
   font-weight: 700;
 }
@@ -46,7 +46,7 @@ body {
 
 .nyt-logo {
   display: block;
-  width: 55%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -57,13 +57,13 @@ body {
 }
 
 .main-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'nyt-cheltenham', sans-serif;
   font-style: italic;
   margin-right: 150px;
-  margin-top: 30px;
+  margin-top: 60px;
   margin-bottom: 0;
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
 }
 
 .alan-guth-image {
@@ -126,4 +126,51 @@ body {
   margin-bottom: 0.1rem;
   font-size: 1.25rem;
   line-height: 1.4;
+}
+
+.article-part2 p {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+aside {
+  float: right;
+  width: 200px;
+  margin-right: 25px;
+  margin-top: 100px;
+}
+
+.aside-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.editors-pick-title {
+  border-bottom: 0.5px solid #666;
+  padding-bottom: 15px;
+}
+
+.aside-image {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.editors-pick {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.aside-description {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.editors-pick a:hover {
+  text-decoration: underline;
 }
