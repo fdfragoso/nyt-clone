@@ -176,7 +176,7 @@ aside {
   text-decoration: underline;
 }
 
-#articles-remaining {
+.articles-remaining {
   text-align: center;
   line-height: 1;
 }
