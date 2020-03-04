@@ -1,5 +1,5 @@
 body {
-  margin: 0
+  margin: 0;
 }
 
 .navigation-bar {
@@ -57,7 +57,7 @@ body {
 }
 
 .main-title {
-  font-family: 'nyt-cheltenham', sans-serif;
+  font-family: "nyt-cheltenham", sans-serif;
   font-style: italic;
   margin-right: 160px;
   margin-top: 80px;
@@ -72,6 +72,7 @@ body {
 }
 
 .alan-guth-figcaption {
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
   line-height: 1rem;
   color: #666;
@@ -139,7 +140,7 @@ body {
 aside {
   float: right;
   width: 200px;
-  margin-right: 25px;
+  margin-right: 20rem;
   margin-top: 100px;
 }
 
@@ -173,4 +174,26 @@ aside {
 
 .editors-pick a:hover {
   text-decoration: underline;
+}
+
+.articles-remaining {
+  text-align: center;
+}
+
+.div-articles-remaining {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.div-articles-remaining hr {
+  width: 75px;
+}
+
+/* GENERAL USE */
+
+.text-link:hover {
+  text-decoration: none;
 }
