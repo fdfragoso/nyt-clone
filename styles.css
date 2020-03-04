@@ -176,15 +176,15 @@ aside {
   text-decoration: underline;
 }
 
-.articles-remaining {
+#articles-remaining {
   text-align: center;
+  line-height: 1;
 }
 
 .div-articles-remaining {
   width: 600px;
   margin: 0 auto;
   font-size: 1.25rem;
-  line-height: 1.4;
   margin-bottom: 1rem;
 }
 
