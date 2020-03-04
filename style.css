@@ -17,8 +17,6 @@
 } */
 
 /* HEADER SESSION */
-.body {
-}
 
 .header {
   width: 100%;
@@ -46,9 +44,6 @@
 .header-magnifier {
   width: 8%;
   height: 8%;
-}
-
-.header-title {
 }
 
 .header-title a {
@@ -168,9 +163,15 @@
 
 .top-text {
   width: 500px;
+}
+
+.paragraph {
   align-self: center;
   font-family: "Nanum Gothic", sans-serif;
+  font-size: 12px;
   line-height: 1.5;
+  text-align: justify;
+  width: 100%;
 }
 
 .top-middle {
@@ -206,7 +207,6 @@ aside {
 
 .thumbnail1{
     margin-bottom: 0px;
-
 }
 
 
