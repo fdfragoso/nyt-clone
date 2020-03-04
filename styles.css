@@ -10,6 +10,11 @@ body {
   border-top: 0.5px solid lightgrey;
   margin-top: 0;
   height: 35px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .nav-left {
@@ -113,9 +118,12 @@ body {
 .article-part1 {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }
 
 .article-part1 p {
   width: 600px;
+  margin-bottom: 0.1rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
 }
