@@ -334,3 +334,7 @@ aside {
   color: #333;
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
+
+.bold {
+  font-weight: bold;
+}
