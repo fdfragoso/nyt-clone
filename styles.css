@@ -160,7 +160,6 @@ body {
   line-height: 1.8;
 }
 
-
 aside {
   float: right;
   width: 200px;
@@ -196,6 +195,10 @@ aside {
   color: #666;
 }
 
+.div-articles-remaining a {
+  text-decoration: none;
+}
+
 .editors-pick a:hover {
   text-decoration: underline;
 }
@@ -214,10 +217,6 @@ aside {
   font-weight: bold;
 }
 
-.div-articles-remaining a {
-  text-decoration: none;
-}
-
 .div-articles-remaining hr {
   width: 75px;
 }
@@ -228,22 +227,64 @@ aside {
   text-decoration: none;
 }
 
-.theory-image {
-  width: 60%;
-  position: absolute;
-  left: 50%;
-  margin-left: -33%;
-  z-index: -1;
-}
-
 .theory-description {
-  font-size: 0.8rem;
-  width: 200px;
-  margin-top: 100px;
+  font-size: 0.6rem;
+  width: 180px;
+  margin-top: 120px;
 }
 
 .theory-of-inflation {
+  background-image: url("images/inflation-945.png");
+  background-size: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
+  width: 800px;
+  align-content: center;
+  column-gap: 15px;
+  row-gap: 35px;
+}
+
+.theory-header-section {
+  width: 800px;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.theory-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  margin-bottom: 13px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.theory-bottom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #333;
+  margin-bottom: 13px;
+}
+
+.theory-bottom-section hr {
+  align-self: flex-start;
+  border: 0.75px solid #000;
+  margin: 0.5rem 0 0 0.4rem;
+  text-align: left;
+  width: 10%;
+}
+
+.theory-bottom-description {
+  width: 800px;
+  font-size: 1.25rem;
+  line-height: 0.5;
+  margin-bottom: 20px;
+  margin-left: 0.3rem;
 }
