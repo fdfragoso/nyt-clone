@@ -102,6 +102,7 @@ body {
 
 .author-link {
   text-decoration: none;
+  font-family: 'nyt-frnaklin', Arial, Helvetica, sans-serif;
   color: black;
   font-weight: bold;
   font-size: 0.8rem;
@@ -109,6 +110,7 @@ body {
 
 .publish-date {
   font-size: 0.8rem;
+  font-family: 'nyt-frnaklin', Arial, Helvetica, sans-serif;
 }
 
 .social-links-top {
@@ -129,6 +131,7 @@ body {
   margin-bottom: 0.1rem;
   font-size: 1.25rem;
   line-height: 1.4;
+  font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
 }
 
 .article-part2 p {
@@ -138,6 +141,27 @@ body {
   line-height: 1.4;
   margin-bottom: 1rem;
   color: #333;
+  font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
+}
+
+.main-content-article-3 p {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: #333;
+  font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
+}
+
+.main-content-article-3 h3 {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: #333;
+  font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
 }
 
 .article-part3 {
@@ -151,6 +175,7 @@ body {
   line-height: 1.4;
   margin-bottom: 1rem;
   color: #333;
+  font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
 }
 
 .part3-header {
@@ -208,13 +233,19 @@ aside {
   margin: 0 auto;
   font-size: 1.25rem;
   margin-bottom: 1rem;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+}
+
+.subscribe-link {
+  color: #326891;
 }
 
 .div-articles-remaining p {
   text-align: center;
-  line-height: 1.1;
+  line-height: 1.2;
   font-size: 0.8rem;
   font-weight: bold;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
 
 .div-articles-remaining hr {
@@ -233,6 +264,10 @@ aside {
   margin-top: 120px;
 }
 
+.theory-description p {
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+}
+
 .theory-of-inflation {
   background-image: url("images/inflation-945.png");
   background-size: 100%;
@@ -243,6 +278,15 @@ aside {
   align-content: center;
   column-gap: 15px;
   row-gap: 35px;
+}
+
+.theory-header {
+  font-family: 'nyt-cheltenham', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.theory-header-description {
+  font-family: 'nyt-cheltenham', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #666;
 }
 
 .theory-header-section {
@@ -283,8 +327,10 @@ aside {
 
 .theory-bottom-description {
   width: 800px;
-  font-size: 1.25rem;
+  font-size: 14px;
   line-height: 0.5;
   margin-bottom: 20px;
   margin-left: 0.3rem;
+  color: #333;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
