@@ -517,3 +517,43 @@ aside {
   margin-top: -5px;
   padding-left: 0;
 }
+
+/* FOOTER LINKS */
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.footer-menu-top {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  width: 100%;
+}
+
+.footer-menu-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.nyt-logo-footer {
+  width: 184px;
+  height: 44px;
+}
+
+.footer-menu-lists li{
+  list-style-type: none;
+}
+
+.footer-menu-ul {
+  padding-left: 0;
+}
