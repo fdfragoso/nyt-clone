@@ -414,6 +414,10 @@ aside {
 
 /* Grid section */
 
+.more-articles {
+  display: flex;
+}
+
 .grid-more-articles {
   margin-left: 30px;
 
@@ -429,6 +433,14 @@ aside {
   text-decoration: none;
   color: black;
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+}
+
+.most-popular-title h3 {
+  text-decoration: none;
+  color: black;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  border-top: 1px solid #000;
+  padding-top: 20px;
 }
 
 .more-articles-title h3 a:hover {
@@ -479,4 +491,22 @@ aside {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 870px;
+}
+
+.most-popular {
+  width: 250px;
+  text-decoration: none;
+  color: #121212;
+  font-family: 'nyt-cheltenham', georgia, Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.most-popular li{
+  border-top: 1px rgb(226, 226, 226) solid;
+  list-style-type: none;
+  margin-bottom: 12px;
+  padding-top: 12px;
 }
