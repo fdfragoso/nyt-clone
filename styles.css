@@ -441,6 +441,7 @@ aside {
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   border-top: 1px solid #000;
   padding-top: 20px;
+  width: 200px;
 }
 
 .more-articles-title h3 a:hover {
@@ -508,5 +509,11 @@ aside {
   border-top: 1px rgb(226, 226, 226) solid;
   list-style-type: none;
   margin-bottom: 12px;
-  padding-top: 12px;
+  padding-top: 10px;
+  width: 200px;
+}
+
+.most-popular ul{
+  margin-top: -5px;
+  padding-left: 0;
 }
