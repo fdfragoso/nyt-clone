@@ -412,8 +412,11 @@ aside {
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
 
+
+
 /* Grid section */
 
+<<<<<<< HEAD
 .grid-more-articles {
   margin-left: 30px;
 
@@ -433,13 +436,40 @@ aside {
 
 .more-articles-title h3 a:hover {
   text-decoration: underline;
+=======
+.more-articles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-more-articles {
+  width: 800px;
+>>>>>>> 3774cfee635b236f6c35718ff9cf3bd5d591be21
 }
 
 .related-articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+<<<<<<< HEAD
   width: 870px;
+=======
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 15px;
+  row-gap: 15px;
+  /* width: 700px; */
+  border: 1px solid red;
+}
+>>>>>>> 3774cfee635b236f6c35718ff9cf3bd5d591be21
 
+.grid-item {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.figtest {
+  margin: 0;
+  padding: 0;
 }
 
 .grid-item {
@@ -447,6 +477,7 @@ aside {
 }
 
 .grid-img {
+<<<<<<< HEAD
   width: 270px;
   height: 180px;
 }
@@ -479,4 +510,12 @@ aside {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 870px;
+=======
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
+>>>>>>> 3774cfee635b236f6c35718ff9cf3bd5d591be21
 }
