@@ -475,7 +475,7 @@ aside {
   color: #666;
 }
 
-.more-articles-editors-pick {
+.editors-pick-articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 870px;
