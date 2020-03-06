@@ -412,7 +412,19 @@ aside {
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
 
+
+
 /* Grid section */
+
+.more-articles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-more-articles {
+  width: 800px;
+}
 
 .related-articles {
   display: grid;
@@ -421,7 +433,17 @@ aside {
   column-gap: 15px;
   row-gap: 15px;
   /* width: 700px; */
+  border: 1px solid red;
+}
 
+.grid-item {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.figtest {
+  margin: 0;
+  padding: 0;
 }
 
 .grid-img {
@@ -429,5 +451,6 @@ aside {
   align-self: center;
   width: 100%;
   height: 100%;
-  box-sizing: border-box
+  box-sizing: border-box;
+  border: 1px solid black;
 }
