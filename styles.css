@@ -412,8 +412,6 @@ aside {
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
 
-
-
 /* Grid section */
 
 .grid-more-articles {
@@ -437,18 +435,15 @@ aside {
   text-decoration: underline;
 }
 
-.more-articles{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .related-articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  column-gap: 15px;
-  row-gap: 15px;
+  width: 870px;
+
+}
+
+.grid-item {
+  width: 270px;
 }
 
 .grid-img {
@@ -459,6 +454,7 @@ aside {
 .related-articles .grid-item figure {
   margin: 0;
   padding: 0;
+
 }
 
 .grid-item-description {
