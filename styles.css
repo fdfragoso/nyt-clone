@@ -364,3 +364,50 @@ aside {
   display: flex;
   justify-content: center;
 }
+
+.footer-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comments-social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.footer-article-text {
+  width: 600px;
+  font-size: 0.7rem;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  color: #666;
+}
+
+.footer-article-text a {
+  color: #666;
+}
+
+.footer-article-text a:hover {
+  text-decoration: none;
+}
+
+.social-links-footer {
+  margin-right: 12px;
+  color: #000;
+}
+
+.comments-button {
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 330px;
+  height: 40px;
+  background-color: #567b95;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+}
