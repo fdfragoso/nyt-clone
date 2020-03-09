@@ -678,3 +678,43 @@ aside {
 .mobile-app {
   margin-top: 15px;
 }
+
+/* FIXED FOOTER */
+
+.footer-navigation-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid lightgrey;
+  border-top: 0.5px solid lightgrey;
+  margin-top: 0;
+  height: 60px;
+  background-color: #333;
+  color: #FFF;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer-nav {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.footer-nav-center {
+  margin-left: 375px;
+}
+
+.footer-nav-right {
+  margin-left: 200px;
+}
+
+.footer-navigation-bar a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
