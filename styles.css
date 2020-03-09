@@ -482,11 +482,19 @@ aside {
 }
 
 .grid-item-description {
+  text-decoration: none;
+  color: #000;
+  display: block;
   font-size: 1.125rem;
-  font-weight: bold;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
-  margin-top: 5px;
+  font-family: 'nyt-cheltenham', georgia, Helvetica, sans-serif;
+  margin-top: 10px;
 }
+
+.grid-item-description:hover {
+  color: #666;
+}
+
+
 
 .more-figcaption {
   font-size: 0.7rem;
