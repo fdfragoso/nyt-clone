@@ -439,6 +439,7 @@ aside {
 .more-articles {
   display: flex;
   margin-bottom: 30px;
+  justify-content: center;
 }
 
 .grid-more-articles {
