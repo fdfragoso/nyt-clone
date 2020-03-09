@@ -543,6 +543,17 @@ aside {
   padding-left: 0;
 }
 
+.most-popular-links {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.most-popular-links:hover {
+  color: #666;
+}
+
+
 /* FOOTER LINKS */
 
 .footer-menu {
