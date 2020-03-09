@@ -558,11 +558,16 @@ aside {
 
 /* FOOTER LINKS */
 
+.main-footer-container {
+  display: flex;
+  justify-content: center; 
+  width: 100%; 
+}
+
 .footer-menu {
   display: flex;
-  flex-direction: column;
-  margin-left: 30px;
-  margin-right: 60px;
+  flex-direction: column; 
+  width: 1200px;
 }
 
 .footer-menu-top {
@@ -575,6 +580,7 @@ aside {
 .footer-menu-lists {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .logo-footer {
