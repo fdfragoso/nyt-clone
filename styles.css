@@ -572,3 +572,28 @@ aside {
 .footer-menu-ul {
   padding-left: 0;
 }
+
+.footer-menu-bottom {
+  display: flex;
+  justify-content: center;
+  font-size: 0.7rem;
+  margin-bottom: 50px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid black;
+}
+
+.footer-menu-bottom-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-menu-bottom-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #666;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+}
+
+.footer-menu-bottom-links a:hover {
+  text-decoration: underline;
+}
