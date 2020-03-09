@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/fdfragoso/nyt-clone/ec2f603bd069d19b93a53ec33115122fd32475c1/index.html)
+[Live Demo](https://raw.githack.com/fdfragoso/nyt-clone/features/index.html)
 
 ## Getting Started
 
