@@ -285,6 +285,10 @@ aside {
 
 /* GENERAL USE */
 
+.text-link {
+  color: #326891;
+}
+
 .text-link:hover {
   text-decoration: none;
 }
