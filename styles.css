@@ -425,6 +425,7 @@ aside {
 
 .more-articles {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .grid-more-articles {
@@ -596,4 +597,13 @@ aside {
 
 .footer-menu-bottom-links a:hover {
   text-decoration: underline;
+}
+
+.footer-menu-list-title {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  color: #333;
+  margin-bottom: 10px;
 }
