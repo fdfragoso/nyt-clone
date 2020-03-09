@@ -436,6 +436,7 @@ aside {
   border-radius: 3px;
   text-transform: uppercase;
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 
 /* Grid section */
@@ -611,7 +612,6 @@ aside {
   font-size: 0.7rem;
   margin-bottom: 50px;
   border-top: 1px solid lightgray;
-  border-bottom: 1px solid black;
 }
 
 .footer-menu-bottom-links {
