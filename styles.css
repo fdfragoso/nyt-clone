@@ -26,6 +26,15 @@ body {
   font-weight: 700;
 }
 
+.nav-left a {
+  text-decoration: none;
+  color: #000;
+}
+
+.space-cosmos-anchor:hover {
+  text-decoration: underline;
+}
+
 .nav-right {
   display: flex;
   justify-content: space-between;
@@ -495,7 +504,7 @@ aside {
 }
 
 .most-popular {
-  width: 250px;
+  width: 350px;
   text-decoration: none;
   color: #121212;
   font-family: 'nyt-cheltenham', georgia, Helvetica, sans-serif;
@@ -505,15 +514,19 @@ aside {
   align-items: flex-start;
 }
 
-.most-popular li{
+.most-popular-title h3 {
+  width: 330px;
+}
+
+.most-popular li {
   border-top: 1px rgb(226, 226, 226) solid;
   list-style-type: none;
   margin-bottom: 12px;
   padding-top: 10px;
-  width: 200px;
+  width: 330px;
 }
 
-.most-popular ul{
+.most-popular ul {
   margin-top: -5px;
   padding-left: 0;
 }
@@ -550,7 +563,7 @@ aside {
   height: 44px;
 }
 
-.footer-menu-lists li{
+.footer-menu-lists li {
   list-style-type: none;
 }
 
