@@ -568,7 +568,7 @@ aside {
 .footer-menu-top {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid gray;
+  border-top: 1px solid lightgray;
   height: 40px;
 }
 
