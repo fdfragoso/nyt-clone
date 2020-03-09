@@ -245,6 +245,14 @@ aside {
   color: #666;
 }
 
+.footer-navigation-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .more-articles-title h3 a {
   text-decoration: none;
   color: black;
@@ -560,13 +568,13 @@ aside {
 
 .main-footer-container {
   display: flex;
-  justify-content: center; 
-  width: 100%; 
+  justify-content: center;
+  width: 100%;
 }
 
 .footer-menu {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   width: 1200px;
 }
 
@@ -580,7 +588,6 @@ aside {
 .footer-menu-lists {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .logo-footer {
@@ -690,7 +697,7 @@ aside {
   margin-top: 0;
   height: 60px;
   background-color: #333;
-  color: #FFF;
+  color: #fff;
   position: fixed;
   left: 0;
   right: 0;
@@ -709,12 +716,4 @@ aside {
 
 .footer-nav-right {
   margin-left: 200px;
-}
-
-.footer-navigation-bar a {
-  text-decoration: none;
-  color: #FFF;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
 }
