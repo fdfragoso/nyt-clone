@@ -636,7 +636,7 @@ aside {
 .icon-subscribe {
   width: 10px;
   height: 10px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .subscribe-top {
@@ -650,4 +650,17 @@ aside {
 .subscribe-part {
   border-left: 1px solid lightgray;
   padding-left: 10px;
+}
+
+.subscribe-bottom {
+  font-size: 0.7rem;
+}
+
+.education-rate {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.mobile-app {
+  margin-top: 15px;
 }
