@@ -51,6 +51,7 @@ body {
   color: white;
   border: 0;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .nyt-logo {
@@ -516,6 +517,7 @@ aside {
 }
 
 .most-popular-title h3 {
+  margin-top: 20px;
   width: 330px;
 }
 
