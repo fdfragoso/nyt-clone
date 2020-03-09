@@ -488,6 +488,7 @@ aside {
   font-size: 1.125rem;
   font-family: 'nyt-cheltenham', georgia, Helvetica, sans-serif;
   margin-top: 10px;
+  font-weight: 500;
 }
 
 .grid-item-description:hover {
